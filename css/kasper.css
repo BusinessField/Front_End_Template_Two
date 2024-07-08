@@ -660,6 +660,9 @@ header nav .form i {
     margin-right: 50px;
 }
 @media (max-width: 767px) {
+    .our-skills .testimonials {
+        order: 2;
+    }
     .our-skills .testimonials .content {
         flex-direction: column;
         text-align: center;
@@ -694,6 +697,11 @@ header nav .form i {
 .our-skills .testimonials .bullets li.active {
     background-color: var(--main-color);
     border-color: var(--main-color);
+}
+@media (max-width: 767px) {
+    .our-skills .skills {
+        order: 1;
+    }    
 }
 .our-skills .skills .prog-holder {
     margin-bottom: 40px;
